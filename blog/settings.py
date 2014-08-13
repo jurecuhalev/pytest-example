@@ -38,7 +38,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
 
     'south',
-    'web'
+    'web',
+    'taggit'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -86,3 +87,7 @@ STATIC_URL = '/static/'
 
 TEST_RUNNER = 'django_pytest.test_runner.TestRunner'
 SOUTH_TESTS_MIGRATE = True
+
+SOUTH_MIGRATION_MODULES = {
+    'taggit': 'taggit.south_migrations',
+}

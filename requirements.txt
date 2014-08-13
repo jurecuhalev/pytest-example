@@ -1,6 +1,7 @@
 Django==1.6.5
 South==1.0
+django-taggit==0.12.1
 py==1.4.23
 pytest==2.6.1
-pytest-django==2.6.2
+-e git+https://github.com/pelme/pytest_django.git@f10e48d4fb7bca3fa2640f6f1c74c4c10655c76d#egg=pytest_django-master
 wsgiref==0.1.2
