@@ -1,4 +1,4 @@
-Example repository that reproduces a problem with django-tagging and master of pytest_dev
+Example repository that reproduces a problem with django-tagging and master of pytest_django
 
 To run it:
 
@@ -17,4 +17,4 @@ Migrations themselves work:
 	./manage.py syncdb
 	./manage.py migrate
 
-		
+
