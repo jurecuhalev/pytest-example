@@ -1,0 +1,6 @@
+Django==1.6.5
+South==1.0
+py==1.4.23
+pytest==2.6.1
+pytest-django==2.6.2
+wsgiref==0.1.2
